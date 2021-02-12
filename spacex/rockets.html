@@ -1,0 +1,63 @@
+<!doctype html>
+<html lang="en"> 
+<head>
+    <title>SpaceX | Rockets</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com"> 
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,700;0,900;1,300&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/4fd7e26c46.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="styles.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="utf-8">
+    <meta name="description" content="Information about SpaceX's rockets">
+    <meta name="keywords" content="Rocket, spaceship, Falcon, Falcon Heavy, Starship, name, hight, diameter, mass, first flight, details, wikipedia">
+</head>
+<body id="rockets-body">
+    <header class="header">
+        <div class="logo">
+            <a href="index.html">
+                <img src="images/spacex-logo.png" alt="Logo for SpaceX" width="200" height="30"> 
+            </a>
+        </div> 
+        <label for="hamburger" class="bars"><i class="fas fa-bars fa-2x"></i></label>
+        <input type="checkbox" id="hamburger">
+        <nav>
+            <ul>
+                <li><a href="index.html">HOME</a></li>
+                <li><a href="next-launch.html">NEXT LAUNCH</a></li>
+                <li><a href="timeline.html">TIMELINE</a></li>
+                <li><a href="rockets.html" class="active">ROCKETS</a></li>
+                <li><a href="contact.html">CONTACT</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section class="headline">
+            <h1>ROCKETS</h1>
+        </section>
+        <div id="countdown">
+        </div>
+        <section class="container-content">
+            <div class="column-content">
+                <div class="col-txt">
+                    <h2>Information</h2>
+                    <div class="details">
+                        <p>Wait for loading results...</p>
+                        <div class="loader"></div>
+                    </div>
+                </div>
+            </div>
+        </section> 
+    </main>
+    <footer class="footer">
+        <div class="social">
+            <a href="https://www.youtube.com/spacex"><i class="fab fa-youtube"></i></a>
+            <a href="https://twitter.com/spacex"><i class="fab fa-twitter"></i></a>
+            <a href="https://www.instagram.com/spacex/"><i class="fab fa-instagram"></i></a>
+        </div>
+        <div class="copyright">
+            <p>SPACEX &copy; 2021</p>
+        </div>
+    </footer>
+    <script src="rockets.js"></script>
+</body>
+</html>
